@@ -30,11 +30,13 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  transition: all 0.25s ease-in-out;
 }
 
 .panel.open {
   flex: 5;
   font-size: 5rem;
+  font-weight: 900;
 }
 
 .panel > * {
@@ -42,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .panel > *:first-child {
@@ -61,21 +64,21 @@ body {
 }
 
 .panel1 {
-  background-image: url("http://picsum.photos/id/1056/1000");
+  background: url("http://picsum.photos/id/1056/1000") no-repeat center;
 }
 
 .panel2 {
-  background-image: url("http://picsum.photos/id/1057/1000");
+  background: url("http://picsum.photos/id/1057/1000") no-repeat center;
 }
 
 .panel3 {
-  background-image: url("http://picsum.photos/id/1058/1000");
+  background: url("http://picsum.photos/id/1058/1000") no-repeat center;
 }
 
 .panel4 {
-  background-image: url("http://picsum.photos/id/1059/1000");
+  background: url("http://picsum.photos/id/1059/1000") no-repeat center;
 }
 
 .panel5 {
-  background-image: url("http://picsum.photos/id/1060/1000");
+  background: url("http://picsum.photos/id/1060/1000") no-repeat center;
 }
